@@ -12,9 +12,9 @@ output:
  Load housing data
 
 ```{r include = FALSE, warning = FALSE}
-setwd("C:/Users/ait0s/OneDrive/Documents/GitHub/dsc520/data")
+setwd("datafilegoesher")
 library("readxl")
-housingdf <-read_excel("week-7-housing.xlsx")
+housingdf <-read_excel("housing.xlsx")
 housingdf
 ```
 
